@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Yoga</title>
+  </head>
+  <body class="max-w-[1440px] h-full my-0 mx-auto">
+    <main
+      class="bg-[#2E4CFF] pt-14 pb-16 px-4 sm:pb-24 lg:pt-28 lg:pb-44 lg:px-14 xl:px-24 w-full"
+    >
+      <header
+        class="flex w-full sm:justify-evenly lg:justify-between items-center"
+      >
+        <div class="hidden sm:block">
+          <img src="/img/taj.png" />
+        </div>
+
+        <nav
+          class="flex max-[640px]:justify-around max-[640px]:w-full sm:gap-10 lg:gap-24 xl:gap-36"
+        >
+          <ul
+            class="text-white flex items-center text-xs gap-4 sm:text-sm sm:gap-6 md:text-lg lg:gap-12"
+          >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li>
+              <a href="#classes">Classes</a>
+            </li>
+            <li>
+              <a href="#teachers">Teachers</a>
+            </li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+
+          <button
+            class="text-[#2E4CFF] bg-white rounded text-xs sm:rounded-lg sm:text-sm px-1 py-1 sm:px-4 sm:py-2 md:text-lg md:px-7 md:py-3"
+          >
+            Contact Us
+          </button>
+        </nav>
+      </header>
+
+      <section
+        id="home"
+        class="grid grid-cols-2 pt-10 gap-4 px-2 sm:gap-8 sm:pt-12 sm:px-16 md:pt-16 md:gap-16 lg:pt-20 lg:gap-20 lg:px-0 xl:pt-40 xl:gap-44"
+      >
+        <div
+          class="flex flex-col gap-3 mt-2 sm:gap-4 sm:mt-6 md:gap-8 md:mt-10 lg:gap-12 lg:mt-12 xl:mt-20"
+        >
+          <h1
+            class="text-sm sm:text-lg md:text-2xl lg:text-5xl text-white flex flex-wrap"
+          >
+            Yoga teaches you how to listen to your body
+          </h1>
+          <p class="text-sm sm:text-base lg:text-xl text-[#E5E5E5]">
+            Slow movements and deep breathing increase blood flow and warm up
+            muscles, while holding a pose can build strength.
+          </p>
+
+          <div class="flex gap-2 sm:gap-4 lg:gap-9 lg:mt-8">
+            <button
+              class="text-[##2E4CFF] bg-white border-solid border rounded-lg text-xs px-2 py-1 sm:px-4 md:text-lg lg:px-7 lg:py-3"
+            >
+              Get Started
+            </button>
+            <button
+              class="text-white border-solid border rounded-lg text-xs px-3 py-1 sm:px-7 md:text-lg lg:px-12 lg:py-3"
+            >
+              Sign in
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="/img/principal.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <article
+      id="classes"
+      class="bg-[#E5E5E5] grid grid-cols-2 gap-10 px-10 py-16 sm:gap-12 sm:px-20 lg:py-28 lg:px-14 lg:gap-20 xl:py-36 xl:px-24 xl:gap-32"
+    >
+      <div>
+        <img src="/img/class-photo.png" alt="" />
+      </div>
+
+      <div class="flex flex-col gap-6 sm:gap-0 items-center min-[1400px]:mt-2">
+        <h2
+          class="text-black font-bold sm:text-2xl md:text-3xl lg:text-4xl min-[1400px]:text-5xl"
+        >
+          Our Yoga Classes
+        </h2>
+
+        <div
+          class="flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:gap-4 sm:mt-10 md:mt-20 lg:gap-y-1 lg:gap-x-6 lg:mt-6 lg:self-end min-[1060px]:pt-12 min-[1400px]:mt-28"
+        >
+          <span
+            class="text-white font-medium bg-[#2E4CFF] rounded text-xs px-2 py-1 sm:px-4 sm:py-8 sm:text-sm sm:rounded-2xl md:text-xl lg:self-start lg:text-2xl lg:px-7 lg:py-16 xl:px-10 xl:py-24 xl:rounded-[30px]"
+            >Yoga Master</span
+          >
+          <span
+            class="text-[#2E4CFF] font-medium bg-white rounded text-xs px-2 py-1 sm:px-3 sm:py-7 sm:text-sm sm:rounded-2xl md:text-xl lg:self-end lg:text-2xl lg:mt-20 lg:px-5 lg:py-16 xl:px-7 xl:py-24 xl:rounded-[30px]"
+            >Relive your life</span
+          >
+          <span
+            class="text-[#2E4CFF] font-medium bg-white rounded text-xs px-2 py-1 sm:px-3 sm:py-7 sm:text-sm sm:rounded-2xl md:text-xl lg:self-start lg:text-2xl lg:mb-24 lg:px-5 lg:py-16 xl:px-7 xl:py-24 xl:rounded-[30px]"
+            >Rock and Yoga</span
+          >
+          <span
+            class="text-white font-medium bg-[#2E4CFF] rounded text-xs px-2 py-1 sm:px-4 sm:py-8 sm:text-sm sm:rounded-2xl md:text-xl lg:self-end lg:text-2xl lg:px-7 lg:py-16 xl:px-10 xl:py-24 xl:rounded-[30px]"
+            >Fit to Health</span
+          >
+        </div>
+      </div>
+    </article>
+
+    <article
+      id="about"
+      class="bg-[#E5E5E5] flex flex-col gap-8 px-10 pb-16 sm:gap-10 sm:px-20 md:px-28 md:gap-16 lg:pb-28 lg:gap-24 xl:pb-36 xl:gap-40"
+    >
+      <h2
+        class="text-center text-black text-xl sm:text-2xl md:text-3xl lg:text-5xl font-medium"
+      >
+        Our Gallary
+      </h2>
+
+      <section class="flex gap-1 sm:gap-3 md:gap-6">
+        <div>
+          <img src="/img/gallary3.png" alt="" />
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <img src="/img/gallary1.png" alt="" />
+          <img src="/img/gallary2.png" alt="" />
+        </div>
+
+        <div class="flex flex-col gap-6">
+          <img src="/img/gallary4.png" alt="" />
+          <img src="/img/gallary5.png" alt="" />
+        </div>
+      </section>
+    </article>
+
+    <article
+      id="teachers"
+      class="bg-[#E5E5E5] flex flex-col gap-8 px-10 pb-16 sm:gap-10 sm:px-14 md:px-28 md:gap-16 lg:pb-28 lg:gap-24 xl:pb-36 xl:gap-40"
+    >
+      <h2
+        class="text-center text-black text-xl sm:text-2xl md:text-3xl lg:text-5xl font-medium"
+      >
+        Our Amazing Team
+      </h2>
+
+      <section class="grid grid-cols-2 sm:grid-cols-4 gap-3 lg:gap-6">
+        <div
+          class="bg-white rounded-lg flex flex-col items-center gap-4 py-4 sm:gap-6 sm:py-8"
+        >
+          <div class="h-12 w-12 sm:h-20 sm:w-20 lg:h-[120px] lg:w-[120px]">
+            <img src="/img/team1.png" class="cursor-pointer" />
+          </div>
+
+          <p
+            class="text-black text-xs sm:text-sm lg:text-lg xl:text-2xl font-bold"
+          >
+            Jennifer Smith
+          </p>
+
+          <div class="flex items-center gap-1 sm:gap-2 lg:gap-5">
+            <img
+              src="/img/instagram.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/twitter.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/youtube.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+          </div>
+
+          <p class="text-[#C4C4C4] text-xs lg:text-lg">Joined Jul 2020</p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg flex flex-col items-center gap-4 py-4 sm:gap-6 sm:py-8"
+        >
+          <div class="h-12 w-12 sm:h-20 sm:w-20 lg:h-[120px] lg:w-[120px]">
+            <img src="/img/team2.png" class="cursor-pointer" />
+          </div>
+          <p
+            class="text-black text-xs sm:text-sm lg:text-lg xl:text-2xl font-bold"
+          >
+            Jacob Harper
+          </p>
+
+          <div class="flex items-center gap-1 sm:gap-2 lg:gap-5">
+            <img
+              src="/img/instagram.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/twitter.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/youtube.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+          </div>
+
+          <p class="text-[#C4C4C4] text-xs lg:text-lg">Joined Jul 2019</p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg flex flex-col items-center gap-4 py-4 sm:gap-6 sm:py-8"
+        >
+          <div class="h-12 w-12 sm:h-20 sm:w-20 lg:h-[120px] lg:w-[120px]">
+            <img src="/img/team3.png" class="cursor-pointer" />
+          </div>
+          <p
+            class="text-black text-xs sm:text-sm lg:text-lg xl:text-2xl font-bold"
+          >
+            Mary Wilson
+          </p>
+
+          <div class="flex items-center gap-1 sm:gap-2 lg:gap-5">
+            <img
+              src="/img/instagram.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/twitter.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/youtube.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+          </div>
+
+          <p class="text-[#C4C4C4] text-xs lg:text-lg">Joined Feb 2018</p>
+        </div>
+
+        <div
+          class="bg-white rounded-lg flex flex-col items-center gap-4 py-4 sm:gap-6 sm:py-8"
+        >
+          <div class="h-12 w-12 sm:h-20 sm:w-20 lg:h-[120px] lg:w-[120px]">
+            <img src="/img/team4.png" class="cursor-pointer" />
+          </div>
+          <p
+            class="text-black text-xs sm:text-sm lg:text-lg xl:text-2xl font-bold"
+          >
+            Anna Thompson
+          </p>
+
+          <div class="flex items-center gap-1 sm:gap-2 lg:gap-5">
+            <img
+              src="/img/instagram.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/twitter.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+            <img
+              src="/img/youtube.png"
+              class="cursor-pointer h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5"
+            />
+          </div>
+
+          <p class="text-[#C4C4C4] text-xs lg:text-lg">Joined Mar 2022</p>
+        </div>
+      </section>
+    </article>
+
+    <article
+      class="bg-[#E5E5E5] flex flex-col pb-16 gap-8 sm:gap-10 md:gap-16 lg:gap-24 lg:px-10 lg:pb-28 xl:gap-40 xl:px-40 xl:pb-36"
+    >
+      <h2
+        class="text-center text-black text-xl sm:text-2xl md:text-3xl lg:text-5xl font-medium"
+      >
+        Pricing
+      </h2>
+
+      <section class="flex gap-4 lg:gap-7 justify-center">
+        <div
+          class="bg-white rounded-lg flex flex-col items-center h-[50%] pt-3 px-3 pb-3 gap-1 mt-8 sm:pt-7 sm:px-7 sm:pb-5 sm:gap-2 sm:mt-11 lg:pt-14 lg:px-14 lg:pb-10 lg:gap-5 xl:pt-16 xl:px-16 xl:pb-12 xl:gap-7 xl:mt-16"
+        >
+          <p class="text-black font-medium text-sm sm:text-lg lg:text-2xl">
+            One Month
+          </p>
+          <p class="text-black font-bold text-base sm:text-3xl lg:text-6xl">
+            $150
+          </p>
+          <p class="text-[#c1bcbc] text-base sm:text-sm lg:text-2xl">0% Save</p>
+
+          <button
+            class="bg-[#2E4CFF] rounded-md text-white text-xs py-1 px-1 sm:rounded-2xl sm:text-base sm:py-2 sm:px-3 lg:text-lg lg:py-4 lg:px-7 lg:mt-3"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <div class="flex flex-col">
+          <div
+            class="bg-[#2E4CFF] rounded-[5px_5px_0px_0px] text-white text-center text-base px-3 py-1 sm:text-lg sm:px-16 sm:py-2 lg:text-2xl lg:px-24 lg:py-4 sm:rounded-[10px_10px_0px_0px]"
+          >
+            Most Popular
+          </div>
+          <div
+            class="flex flex-col items-center gap-1 py-3 px-3 sm:gap-2 sm:pt-8 sm:px-8 sm:pb-5 lg:gap-4 lg:pt-12 lg:px-12 lg:pb-10 xl:pt-16 xl:px-16 xl:pb-12 xl:gap-7 rounded-lg bg-white"
+          >
+            <p class="text-black font-medium text-sm sm:text-lg lg:text-2xl">
+              One Year
+            </p>
+            <p class="text-black font-bold text-base sm:text-3xl lg:text-6xl">
+              $1350
+            </p>
+            <p class="text-[#c1bcbc] text-base sm:text-sm lg:text-2xl">
+              25% Save
+            </p>
+
+            <button
+              class="bg-[#2E4CFF] rounded-md text-white text-xs py-1 px-1 sm:rounded-2xl sm:text-base sm:py-2 sm:px-3 lg:text-lg lg:py-4 lg:px-7 lg:mt-3"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg flex flex-col items-center h-[50%] pt-3 px-3 pb-3 gap-1 mt-8 sm:pt-7 sm:px-7 sm:pb-5 sm:gap-2 sm:mt-11 lg:pt-14 lg:px-14 lg:pb-10 lg:gap-5 xl:pt-16 xl:px-16 xl:pb-12 xl:gap-7 xl:mt-16"
+        >
+          <p class="text-black font-medium text-sm sm:text-lg lg:text-2xl">
+            Six Month
+          </p>
+          <p class="text-black font-bold text-base sm:text-3xl lg:text-6xl">
+            $810
+          </p>
+          <p class="text-[#c1bcbc] text-base sm:text-sm lg:text-2xl">
+            10% Save
+          </p>
+
+          <button
+            class="bg-[#2E4CFF] rounded-md text-white text-xs py-1 px-1 sm:rounded-2xl sm:text-base sm:py-2 sm:px-3 lg:text-lg lg:py-4 lg:px-7 lg:mt-3"
+          >
+            Get Started
+          </button>
+        </div>
+      </section>
+    </article>
+
+    <article
+      id="blog"
+      class="bg-[#E5E5E5] flex flex-col gap-8 pb-16 px-8 sm:gap-10 sm:px-20 md:gap-16 min-[1400px]:gap-32 min-[1400px]:px-28 min-[1400px]:pb-36"
+    >
+      <h2
+        class="text-center text-black text-xl sm:text-2xl md:text-3xl lg:text-5xl font-medium"
+      >
+        Our Blog News
+      </h2>
+
+      <section class="grid grid-cols-2 gap-4 sm:gap-9">
+        <div class="relative">
+          <img src="/img/blog1.png" />
+
+          <div class="absolute z-10 top-[40%] left-[5%] min-[1400px]:top-[50%]">
+            <div
+              class="flex flex-col gap-2 min-[1400px]:gap-3 min-[1400px]:ml-6"
+            >
+              <p
+                class="text-white font-bold text-xs sm:text-base md:text-lg min-[1400px]:text-4xl"
+              >
+                What is Yoga?
+              </p>
+              <p class="text-white max-[900px]:hidden min-[1400px]:text-xl">
+                Yoga is an ancient form of exercise that focuses on strength,
+                flexibility and breathing to boost physical and...
+              </p>
+              <button
+                class="bg-white border rounded-lg text-[#2E4CFF] w-max mt-1 text-xs py-1 px-4 min-[1400px]:text-lg min-[1400px]:py-4 min-[1400px]:px-7"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <img src="/img/blog2.png" />
+          <div class="absolute z-10 top-[40%] left-[5%] min-[1400px]:top-[50%]">
+            <div
+              class="flex flex-col gap-2 min-[1400px]:gap-3 min-[1400px]:ml-6"
+            >
+              <p
+                class="text-white font-bold text-xs sm:text-base md:text-lg min-[1400px]:text-4xl"
+              >
+                Benefits
+              </p>
+              <p class="text-white max-[900px]:hidden min-[1400px]:text-xl">
+                The regular practice of Yoga can bring to you numerous physical,
+                mental and emotional benefits, and more...
+              </p>
+              <button
+                class="bg-white border rounded-lg text-[#2E4CFF] w-max mt-1 text-xs py-1 px-4 min-[1400px]:text-lg min-[1400px]:py-4 min-[1400px]:px-7"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section
+      class="bg-[#E5E5E5] pb-16 px-8 sm:px-14 md:px-24 lg:px-32 xl:px-60 xl:pb-36 min-[1400px]:px-80 min-[1400px]:pb-40"
+    >
+      <div
+        class="bg-white rounded-md sm:rounded-3xl flex items-center justify-between py-2 px-3 sm:py-4 sm:px-6 xl:py-9 xl:px-11"
+      >
+        <div class="flex flex-col lg:gap-3 xl:gap-6">
+          <h3
+            class="text-black font-bold text-sm sm:text-lg lg:text-2xl xl:text-3xl"
+          >
+            Have any question about us
+          </h3>
+          <p class="text-[#C4C4C4] text-xs sm:text-lg md:text-xl xl:text-2xl">
+            Just drop us an email
+          </p>
+        </div>
+
+        <button
+          class="bg-[#2E4CFF] border rounded-lg text-white text-xs py-1 px-4 sm:text-base sm:py-2 sm:px-5 xl:text-lg xl:py-4 xl:px-7"
+        >
+          Send Email
+        </button>
+      </div>
+    </section>
+
+    <footer
+      class="bg-[#2E4CFF] grid grid-cols-3 items-center py-16 sm:py-24 xl:py-32"
+    >
+      <div
+        class="w-[45px] h-[4px] ml-4 sm:w-[80px] sm:h-[77px] sm:ml-16 lg:w-[120px] lg:h-[117px] xl:ml-28"
+      >
+        <img src="/img/taj2.png" alt="" />
+      </div>
+
+      <div
+        class="text-white flex flex-col items-center gap-3 sm:gap-7 md:gap-10 xl:gap-16"
+      >
+        <p class="text-sm sm:text-lg md:text-xl xl:text-3xl">Quick Explore</p>
+        <div
+          class="grid grid-cols-2 text-xs gap-1 sm:flex sm:text-sm sm:gap-2 md:gap-3 lg:text-lg xl:gap-12"
+        >
+          <a href="#home">Home</a>
+          <a href="#about">About </a>
+          <a href="#classes">Classes</a>
+          <a href="#teachers">Teachers</a>
+          <a href="#blog">Blog</a>
+        </div>
+      </div>
+
+      <div
+        class="text-white flex flex-col items-center gap-7 md:gap-10 xl:gap-16"
+      >
+        <p class="text-sm sm:text-lg md:text-xl xl:text-3xl">Stay Connected</p>
+        <div class="flex gap-2 md:gap-3 xl:gap-9">
+          <img
+            src="/img/insta-w.png"
+            class="cursor-pointer h-4 w-4 sm:h-6 sm:w-6 xl:h-[35px] xl:w-[35px]"
+          />
+          <img
+            src="/img/twitter-w.png"
+            class="cursor-pointer h-4 w-4 sm:h-6 sm:w-6 xl:h-[35px] xl:w-[35px]"
+          />
+          <img
+            src="/img/youtube-w.png"
+            class="cursor-pointer h-4 w-4 sm:h-6 sm:w-6 xl:h-[35px] xl:w-[35px]"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
